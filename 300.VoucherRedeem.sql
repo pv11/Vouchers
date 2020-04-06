@@ -1,3 +1,4 @@
+-- drop table VoucherRedeem
 
 if object_id('VoucherRedeem') is null 
 create table VoucherRedeem(

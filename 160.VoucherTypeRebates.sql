@@ -1,3 +1,4 @@
+-- drop table VoucherTypeRebates
 
 if object_id('VoucherTypeRebates') is null 
 create table VoucherTypeRebates(

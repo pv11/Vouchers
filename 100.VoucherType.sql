@@ -1,3 +1,4 @@
+-- drop table VoucherType
 
 if object_id('VoucherType') is null 
 create table VoucherType(
@@ -11,7 +12,11 @@ create table VoucherType(
 	DefaultPrefix			varchar(20),
 
 	IsPaymentMode			bit, 
+	DefaultSalePrice		decimal(19,4),
+	DefaultVoucherValue		decimal(19,4),
 	AllowPartialRedeem		bit,
+
+	DefaultValidityDays		int,
 
 	SalesHasTax				bit,
 

@@ -1,3 +1,4 @@
+-- drop table VoucherTypeHotelValidity
 
 if object_id('VoucherTypeHotelValidity') is null 
 create table VoucherTypeHotelValidity(

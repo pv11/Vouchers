@@ -1,4 +1,4 @@
---  drop table VoucherLine; drop table Voucher; 
+--   drop table Voucher; 
 
 if object_id('Voucher') is null 
 create table Voucher(
